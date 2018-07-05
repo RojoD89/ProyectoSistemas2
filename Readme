@@ -23,7 +23,7 @@ Donde los parámetros tienen el siguiente significado:
   - Un ejemplo completo de la invocación seria:
 	./backup ucab /home/daniel/test-backup/ -x mp4 –x jpg –m 1024
 
-- Dentro de la carp2ta Proyecto2 se encuentra un archivo con los links a las páginas de internet que se utilizaron como 
+- Dentro de la carpeta Proyecto2 se encuentra un archivo con los links a las páginas de internet que se utilizaron como 
 referencia para este proyecto.	
 
 Link al repositorio de este proyecto: 
