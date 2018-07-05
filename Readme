@@ -1,0 +1,30 @@
+Sistemas de Operación
+Proyecto 2 (cerrado): Backup
+
+Integrantes:
+
+- Ovidio Rodriguez
+- Daniel Rojas
+
+Instrucciones:
+
+- Descomprimir el  archivo tar.gz en el directorio deseado.
+- Navegar hasta el directiro ~/Proyecto2/src/
+- Ejucutar instruccion make, se creara un ejecutable llamado "backup".
+- La invocación se realiza de la siguiente manera:
+	./backup <origen> <destino> [-x extension1] [-x extension2] ... [-m bytes]
+
+Donde los parámetros tienen el siguiente significado:
+
+  -origen: Indica el directorio que se va a copiar.
+  -destino: Indica el directorio de destino. La copia de origen quedará como un subdirectorio en el directorio destino.
+  -x: se podrán especificar uno o más parámetros -x seguidos de una extensión de archivo. Los archivos con esta extensión serán excluidos del respaldo.
+  -m es un parámetro opcional que indica el tamaño máximo en kilobytes de un archivo a ser copiado. Los archivos más grandes que este tamaño no serán copiados.
+  - Un ejemplo completo de la invocación seria:
+	./backup ucab /home/daniel/test-backup/ -x mp4 –x jpg –m 1024
+
+- Dentro de la carp2ta Proyecto2 se encuentra un archivo con los links a las páginas de internet que se utilizaron como 
+referencia para este proyecto.	
+
+Link al repositorio de este proyecto: 
+https://github.com/RojoD89/ProyectoSistemas2
